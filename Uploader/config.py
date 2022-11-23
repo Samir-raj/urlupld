@@ -68,9 +68,4 @@ class Config(object):
     BOT_USERNAME = "urlnupldbot"
     ADL_BOT_RQ = {}
     AUTH_USERS = 5470140997
-    AUTH_USERS = list({int(x)
-
-for x in os.environ.get(5470140997, "0").split()})
-
-AUTH_USERS.append(5470140997)
-
+    AUTH_USERS = [5470140997]
